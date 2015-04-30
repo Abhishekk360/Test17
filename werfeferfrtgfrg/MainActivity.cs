@@ -25,6 +25,7 @@ namespace werfeferfrtgfrg
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			Console.WriteLine ("hiiiii");
+			Console.WriteLine ("hello");
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
